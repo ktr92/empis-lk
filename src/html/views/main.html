@@ -37,18 +37,20 @@
 
           </div><!-- /.lkheader__left -->
           <div class="lkheader__right">
-            <div class="manager">
-              <div class="manager__wrapper">
-                <div class="manager__photo">
-                  <div class="manager__img"><img src="img/manager.png" alt=""></div>
-                </div>
-                <div class="manager__info">
-                  <div class="manager__title">Ваш менеджер</div>
-                  <div class="manager__name">Копнин Александр</div>
-                  <div class="manager__link"><a href="#modal_manager" data-toggle="modal">Связаться</a></div>
-                </div><!-- /.manager__info -->
-              </div><!-- /.manager__wrapper -->
-            </div><!-- /.manager -->
+            <a href="#modal__manager" data-toggle="modal" class='link_manager'>
+              <div class="manager">
+                <div class="manager__wrapper">
+                  <div class="manager__photo">
+                    <div class="manager__img"><img src="img/manager.png" alt=""></div>
+                  </div>
+                  <div class="manager__info">
+                    <div class="manager__title">Ваш менеджер</div>
+                    <div class="manager__name">Копнин Александр</div>
+                    <div class="manager__link">Связаться</div>
+                  </div><!-- /.manager__info -->
+                </div><!-- /.manager__wrapper -->
+              </div><!-- /.manager -->
+            </a>
           </div><!-- /.lkheader__right -->
         </div><!-- /.lkheader__main -->
       </div><!-- /.lkheader__content -->
@@ -57,12 +59,262 @@
 
   <div class="container">
     <div class="page">
-      <div class="wrapper">
+      <div class="wrapper wrapper_nopad">
+        <div class="lktable">
+          <div class="lktable__header">
+            <div class="lktable__col lktable__col_1">
+              <div class="lktable__item">
+                <div class="lktable__text">Дата постановки</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_2">
+              <div class="lktable__item">
+                <div class="lktable__text">Название задачи</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_3">
+              <div class="lktable__item">
+                <div class="lktable__text">Статус</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_4">
+              <div class="lktable__item">
+                <div class="lktable__text">Крайний срок</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_5">
+              <div class="lktable__item">
+                <div class="lktable__text">Комментарии менеджера</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_6">
+              <div class="lktable__item">
+                <div class="lktable__text">Затраченные часы</div>
+              </div>
+            </div>
+          </div><!-- /.lktable__header -->
+          <div class="lktable__row">
+            <div class="lktable__col lktable__col_1">
+              <div class="lktable__item">
+                <div class="lktable__text">22 апреля, 16:54</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_2">
+              <div class="lktable__item">
+                <div class="lktable__text"><a href="#">Добавляем доставку в день обращения и увеличиваем время для
+                    оформления заказа
+                    на следующий день</a></div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_3">
+              <div class="lktable__item">
+                <div class="lktable__text status status_process">В работе</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_4">
+              <div class="lktable__item">
+                <div class="lktable__text">22 апреля, 16:54</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_5">
+              <div class="lktable__item">
+                <div class="lktable__text">Бла бла бла</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_6">
+              <div class="lktable__item">
+                <div class="lktable__text lktable__text_center">2,5</div>
+              </div>
+            </div>
+          </div>
 
+          <div class="lktable__row">
+            <div class="lktable__col lktable__col_1">
+              <div class="lktable__item">
+                <div class="lktable__text">22 апреля, 16:54</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_2">
+              <div class="lktable__item">
+                <div class="lktable__text lktable__text_completed"><a href="#">Добавляем доставку в день обращения и
+                    увеличиваем время для
+                    оформления заказа
+                    на следующий день</a></div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_3">
+              <div class="lktable__item">
+                <div class="lktable__text status status_completed">Завершена</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_4">
+              <div class="lktable__item">
+                <div class="lktable__text">22 апреля, 16:54</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_5">
+              <div class="lktable__item">
+                <div class="lktable__text">Бла бла бла</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_6">
+              <div class="lktable__item">
+                <div class="lktable__text lktable__text_center">1</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lktable__row">
+            <div class="lktable__col lktable__col_1">
+              <div class="lktable__item">
+                <div class="lktable__text">22 апреля, 16:54</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_2">
+              <div class="lktable__item">
+                <div class="lktable__text"><a href="#">Добавляем доставку в день обращения и увеличиваем время для
+                    оформления заказа
+                    на следующий день</a></div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_3">
+              <div class="lktable__item">
+                <div class="lktable__text status status_process">В работе</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_4">
+              <div class="lktable__item">
+                <div class="lktable__text">22 апреля, 16:54</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_5">
+              <div class="lktable__item">
+                <div class="lktable__text">Бла бла бла</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_6">
+              <div class="lktable__item">
+                <div class="lktable__text lktable__text_center">1</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lktable__row">
+            <div class="lktable__col lktable__col_1">
+              <div class="lktable__item">
+                <div class="lktable__text">22 апреля, 16:54</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_2">
+              <div class="lktable__item">
+                <div class="lktable__text"><a href="#">Добавляем доставку в день обращения и увеличиваем время для
+                    оформления заказа
+                    на следующий день</a></div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_3">
+              <div class="lktable__item">
+                <div class="lktable__text status status_postponed">Отложена</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_4">
+              <div class="lktable__item">
+                <div class="lktable__text">22 апреля, 16:54</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_5">
+              <div class="lktable__item">
+                <div class="lktable__text">Бла бла бла</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_6">
+              <div class="lktable__item">
+                <div class="lktable__text lktable__text_center">1</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lktable__row">
+            <div class="lktable__col lktable__col_1">
+              <div class="lktable__item">
+                <div class="lktable__text">22 апреля, 16:54</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_2">
+              <div class="lktable__item">
+                <div class="lktable__text"><a href="#">Добавляем доставку в день обращения и увеличиваем время для
+                    оформления заказа
+                    на следующий день</a></div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_3">
+              <div class="lktable__item">
+                <div class="lktable__text status status_process">В работе</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_4">
+              <div class="lktable__item">
+                <div class="lktable__text">22 апреля, 16:54</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_5">
+              <div class="lktable__item">
+                <div class="lktable__text">Бла бла бла</div>
+              </div>
+            </div>
+            <div class="lktable__col lktable__col_6">
+              <div class="lktable__item">
+                <div class="lktable__text lktable__text_center">1</div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div><!-- /.lktable -->
       </div><!-- /.wrapper -->
     </div><!-- /.page -->
   </div><!-- /.container -->
 
-</main>
 
-<%= _.template(require('./../includes/footer.html').default)(data) %>
+</main>
+<div class='lkfooter'>
+  <div class="lkheader lkheader_bottom">
+    <div class="container">
+      <div class="lkheader__content">
+
+        <div class="lkheader__main">
+          <div class="lkheader__left">
+            <div class="lkheader__subtitle">Итого:</div>
+            <div class="lkheader__info">
+              <div class="lkinfo">
+                <div class="lkinfo__title">Затрачено часов:</div>
+                <div class="lkinfo__value">30</div>
+              </div><!-- /.lkinfo -->
+              <div class="lkinfo">
+                <div class="lkinfo__title">Осталось часов: </div>
+                <div class="lkinfo__value">0</div>
+              </div><!-- /.lkinfo -->
+              <div class="lkinfo">
+                <div class="lkinfo__title">Дополнительных часов сверх тарифа: </div>
+                <div class="lkinfo__value">10</div>
+              </div><!-- /.lkinfo -->
+            </div><!-- /.lkheader__info -->
+            <div class="lkheader__info">
+              <div class="lkinfo lkinfo_small">
+                <div class="lkinfo__title">Время менеджера (консультации, согласования и т.п.): </div>
+                <div class="lkinfo__value">2</div>
+              </div><!-- /.lkinfo -->
+            </div><!-- /.lkheader__info -->
+          </div><!-- /.lkheader__left -->
+          <div class="lkheader__right">
+            <a href="#" target='_blank' class="btn btn--medium">Выгрузить отчет в PDF</a>
+          </div><!-- /.lkheader__right -->
+        </div><!-- /.lkheader__main -->
+
+      </div><!-- /.lkheader__content -->
+    </div><!-- /.container -->
+  </div><!-- /.lkheader -->
+
+  <%= _.template(require('./../includes/footer.html').default)(data) %>
+</div>
