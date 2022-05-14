@@ -1,0 +1,68 @@
+<% var data = {
+  title: "Заголовок | Проект",
+  author: "Harrix"
+}; %>
+<%= _.template(require('./../includes/head.html').default)(data) %>
+
+<%= _.template(require('./../includes/header.html').default)(data) %>
+
+<main>
+
+  <div class="lkheader">
+    <div class="container">
+      <div class="lkheader__content">
+        <div class="lkheader__title">
+          Отчет по технической поддержке сайта: <a href="//" target='_blank'>maridel.ru</a>
+        </div>
+
+        <div class="lkheader__main">
+          <div class="lkheader__left">
+            <div class="lkheader__info">
+              <div class="lkheader__select customselect">
+                <select name="date" id="">
+                  <option value="01.06.2022 - 30.06.2022">01.06.2022 - 30.06.2022</option>
+                  <option value="01.07.2022 - 30.07.2022">01.07.2022 - 30.07.2022</option>
+                  <option value="01.08.2022 - 30.08.2022">01.08.2022 - 30.08.2022</option>
+                </select>
+              </div><!-- /.lkheader__select -->
+              <div class="lkinfo">
+                <div class="lkinfo__title">Часов по договору:</div>
+                <div class="lkinfo__value">20</div>
+              </div><!-- /.lkinfo -->
+              <div class="lkinfo">
+                <div class="lkinfo__title">Перенос часов на следующий месяц: </div>
+                <div class="lkinfo__value">предусмотрен</div>
+              </div><!-- /.lkinfo -->
+            </div><!-- /.lkheader__info -->
+
+          </div><!-- /.lkheader__left -->
+          <div class="lkheader__right">
+            <div class="manager">
+              <div class="manager__wrapper">
+                <div class="manager__photo">
+                  <div class="manager__img"><img src="img/manager.png" alt=""></div>
+                </div>
+                <div class="manager__info">
+                  <div class="manager__title">Ваш менеджер</div>
+                  <div class="manager__name">Копнин Александр</div>
+                  <div class="manager__link"><a href="#modal_manager" data-toggle="modal">Связаться</a></div>
+                </div><!-- /.manager__info -->
+              </div><!-- /.manager__wrapper -->
+            </div><!-- /.manager -->
+          </div><!-- /.lkheader__right -->
+        </div><!-- /.lkheader__main -->
+      </div><!-- /.lkheader__content -->
+    </div><!-- /.container -->
+  </div><!-- /.lkheader -->
+
+  <div class="container">
+    <div class="page">
+      <div class="wrapper">
+
+      </div><!-- /.wrapper -->
+    </div><!-- /.page -->
+  </div><!-- /.container -->
+
+</main>
+
+<%= _.template(require('./../includes/footer.html').default)(data) %>

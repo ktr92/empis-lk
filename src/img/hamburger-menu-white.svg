@@ -1,0 +1,8 @@
+<svg width="25px" height="13px" viewBox="0 0 25 13" id="emoji" xmlns="http://www.w3.org/2000/svg">
+  
+  <g id="line">
+    <line x1="0" x2="25" y1="0" y2="0" fill="#fff" stroke="#fff" stroke-linecap="round"  stroke-width="1"/>
+    <line x1="0" x2="25" y1="6" y2="6" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+    <line x1="0" x2="25" y1="13" y2="13" fill="#fff" stroke="#fff" stroke-linecap="round"  stroke-width="1"/>
+  </g>
+</svg>
